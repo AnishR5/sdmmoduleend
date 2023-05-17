@@ -1,0 +1,95 @@
+Title-Employee Recruitment System 
+
+Employee recruitment system is a application where recruiters met candidates at a common place. Recruiters and candidates can register themselves on the application and Application  will help to ease the process of traditional recruitment process.
+
+Scope:
+
+Functional Requirements:
+1)Candidate registration and authentication :
+Candidate and recruiter will have to create a account and register himself on the platform.All details will be validated
+
+2)Job posting 
+job will be posted by recuiters then candidates will be able to see them
+.Candidates then can review job requirements and qulaification and then apply. 
+
+3)Job searching 
+Candidate then can search suitable job according to one's choice and then can apply for the job.Those candidates that pass minimum requirements then pass over to the next step.
+
+4)Job Application 
+After searching suitable job, candidate can apply for a job. For application certain documents must be mandatory eg resume,photo and education details and experience(if applicable) 
+
+
+5)Candidate Shortlisting
+Based on the requirements supplied by recruiter for a perticular job candidates wil be shortlisted and for further shortlisting a test will be taken 
+
+6)Interview scheduling
+Those who fulfill all minimum requirement criteria will then be notified for the interview.Interview may be taken in offline or online platform as per recruiter. 
+
+7)Communication 
+Communication channel between recruiter and candidate will be through a chat box in the application where a candidate can messege recuiter and vice-versa.
+
+8)Dashboad 
+On dashboard all the statistical data will be shown about recruiter avg intake rate,avg pacakage etc
+
+Non functional requirements 
+1) Security
+User authentication and sensitive information shall be securely stored and transmitted.
+Access to personal data and confidential information shall be restricted.
+The system shall implement encryption and secure communication protocols to protect data.
+
+2) Performance
+The system shall be capable of handling a large number of concurrent users and job postings.
+Response times for searching, application submission, and other critical operations shall meet acceptable performance standards.
+The system shall be scalable to accommodate future growth and increasing demands.
+
+
+3) Documentation
+The system shall be accompanied by comprehensive user documentation, including user guides and FAQs.
+Technical documentation shall be provided to assist system administrators in configuration, maintenance, and troubleshooting.
+
+4. Conclusion
+The Employee Recruitment System is a streamlined solution that simplifies the recruitment process. It offers features like job posting, application submission, applicant tracking, interview scheduling, and communication. With a focus on security, performance, and user-friendly interface, the system improves efficiency for recruiters and enhances the experience for job seekers. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,66 @@
+
+Tables
+
+1)expirence table
+create table experience(
+experience_id int primary key,
+experience_description varchar(50)
+);
+
+
+2)education table
+create table education(
+education_id int primary key,
+education_description varchar(50)
+);
+
+3)candidate table
+create table candidate(
+candidateid int primary key,
+cname varchar(20) not null,
+email varchar(20) unique,
+phoneno varchar(20) unique,
+address varchar(20) not null,
+experience_id int,
+education_id int,
+constraint fk_eid foreign key(experience_id) references experience(experience_id )  on delete set null on update cascade,
+constraint fk_eduid foreign key(education_id) references education(education_id)  on delete set null on update cascade
+);
+
+4)
+create table recruiter(
+rid int primary key,
+rname varchar(30)
+);
+
+5)job table
+
+create table job(
+jobid int primary key,
+recruiter_id int,
+jobname varchar(20),
+package double(9,2),
+constraint fk_eid foreign key() references recruiter(rid)  on delete set null on update cascade
+);
+
+6)
+
+create table application(
+application_id int primary key,
+job_id int,
+candidate_id int,
+application_date date,
+constraint fk_cid foreign key() references candidate(candidate_id )   on delete set null on update cascade,
+constraint fk_jid foreign key() references job(job_id)  on delete set null on update cascade
+);
+
+
+7)interview table
+create table interview(
+interview_id  int primary key,
+job_id int,
+candidate_id int,
+interview_date date,
+constraint fk_cid foreign key() references candidate(candidate_id )   on delete set null on update cascade,
+constraint fk_jid foreign key() references job(job_id)  on delete set null on update cascade
+);
